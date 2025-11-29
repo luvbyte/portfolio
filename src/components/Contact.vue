@@ -2,7 +2,9 @@
   <section id="contact" class="mt-16 py-10 px-4 md:px-0 font-body">
     <!-- HEADER -->
     <div class="text-center mb-8">
-      <h2 class="text-3xl font-bold tracking-wide font-heading">📬 Contact Me</h2>
+      <aos-vue animation="zoom-in">
+        <h2 class="text-3xl font-bold tracking-wide font-heading">📬 Contact Me</h2>
+      </aos-vue>
       <p class="text-gray-500 text-sm mt-1">Have a project or idea? I’d love to hear from you.</p>
       <div class="divider w-24 mx-auto mt-2"></div>
     </div>

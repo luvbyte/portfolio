@@ -11,7 +11,7 @@ import { projectsList } from '@/projects'
 </script>
 
 <template>
-  <main class="p-4 flex flex-col">
+  <main class="p-4 flex flex-col overflow-x-hidden">
     <Hero />
     <Projects :projects="projectsList.slice(0, 3)" :showMore="true" />
     <Skills />

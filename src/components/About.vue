@@ -18,22 +18,27 @@
       ></div>
     </div>
     <div class="max-w-full">
-      <h2 class="text-3xl font-bold tracking-wide flex items-center gap-2 font-heading">
-        👋 About Me
-      </h2>
+      <aos-vue animation="zoom-in">
+        <h2
+          class="text-3xl font-bold tracking-wide flex items-center gap-2 font-heading"
+        >
+          👋 About Me
+        </h2>
+      </aos-vue>
       <div class="divider mt-1 w-24"></div>
 
       <p class="mt-3 text-gray-500 text-sm md:text-[15px] leading-relaxed">
-        I’m a developer passionate about building clean, intuitive, and meaningful digital
-        experiences. I enjoy turning ideas into real, functional software — whether it’s a web
-        application or a fully automated script.
+        I’m a developer passionate about building clean, intuitive, and
+        meaningful digital experiences. I enjoy turning ideas into real,
+        functional software — whether it’s a web application or a fully
+        automated script.
       </p>
 
       <p class="mt-4 text-gray-500 text-sm md:text-[15px] leading-relaxed">
         My main focus is developing with
         <span class="font-semibold text-primary">Vue</span> and
-        <span class="font-semibold text-primary">Python</span>, but I'm always exploring new tools
-        and frameworks to level up my workflow.
+        <span class="font-semibold text-primary">Python</span>, but I'm always
+        exploring new tools and frameworks to level up my workflow.
       </p>
 
       <div class="mt-6 flex gap-3">
