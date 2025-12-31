@@ -7,6 +7,13 @@ export const projectsList = [
     repo: 'https://github.com/luvbyte/kikx',
   },
   {
+    title: 'Escapy',
+    desc: 'Escapy is a modular framework for automating and managing tasks in real time',
+    img: '/images/escapy-preview.jpg',
+    tech: ['Python', 'Fastapi', 'Vue', 'TailwindCSS'],
+    repo: 'https://github.com/luvbyte/escapy',
+  },
+  {
     title: 'KittyChef',
     desc: 'Lightweight mobile toolkit for encoding, decoding, and transforming data',
     img: '/images/kittychef-preview.png',
