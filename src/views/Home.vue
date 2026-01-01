@@ -13,7 +13,7 @@
 <template>
   <main class="p-4 flex flex-col overflow-x-hidden">
     <Hero />
-    <Projects :projects="projectsList.slice(0, 5)" :showMore="true" />
+    <Projects :projects="projectsList.slice(0, 6)" :showMore="true" />
     <Skills />
     <TechStack />
     <About />

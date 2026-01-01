@@ -3,20 +3,6 @@
     id="about"
     class="mt-10 py-10 px-4 md:px-0 flex flex-col md:flex-row items-center gap-10"
   >
-    <!-- IMAGE -->
-    <div
-      class="relative group w-44 h-44 md:w-72 md:h-72 rounded-2xl overflow-hidden shadow-lg ring-2 ring-base-300 transition-all duration-500 hover:scale-105 hover:ring-primary"
-    >
-      <img
-        src="/images/profile-about.png"
-        alt="Profile"
-        class="w-full h-full object-contain transition-all duration-500 group-hover:brightness-90"
-        loading="lazy"
-      />
-      <div
-        class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-60 transition-all duration-500"
-      ></div>
-    </div>
     <div class="max-w-full">
       <aos-vue animation="zoom-in">
         <h2
