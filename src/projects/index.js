@@ -16,9 +16,9 @@ export const projectsList = [
   {
     title: "KittyChef",
     desc: "Lightweight mobile toolkit for encoding, decoding, and transforming data",
-    img: "/images/kittychef-preview.png",
+    img: "/images/kittychef-preview.jpg",
     tech: ["Vue", "TailwindCSS", "JavaScript"],
-    link: "https://kittychef.netlify.app",
+    link: "https://kittychef.vercel.app",
     repo: "https://github.com/luvbyte/kittychef"
   },
   {
