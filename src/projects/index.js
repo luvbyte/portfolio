@@ -22,11 +22,19 @@ export const projectsList = [
     repo: "https://github.com/luvbyte/kittychef"
   },
   {
-    title: "zzz",
+    title: "SpaceChat",
+    desc: "A real-time Vue + Supabase platform for joining “spaces” and chatting live",
+    img: "/images/space-chat-preview.png",
+    tech: ["Supabase", "Vue", "TailwindCSS"],
+    link: "https://space-chat-kik.vercel.app/",
+    repo: "https://github.com/luvbyte/space-chat"
+  },
+  {
+    title: "luvz",
     desc: "A lightweight framework for building interactive Python scripts",
-    img: "/images/zzz-preview.jpg",
+    img: "/images/luvz-preview.png",
     tech: ["Python", "Rich", "Cmd2"],
-    repo: "https://github.com/luvbyte/zzz"
+    repo: "https://github.com/luvbyte/luvz"
   },
   {
     title: "Nebula",
@@ -35,13 +43,7 @@ export const projectsList = [
     tech: ["Python", "FastAPI", "vue", "TailwindCSS"],
     repo: "https://github.com/luvbyte/nebula"
   },
-  {
-    title: "KawaiSpace",
-    desc: "A real-time Nuxt + Supabase platform for joining named private “islands” and chatting live",
-    img: "/images/kawaispace-preview.png",
-    tech: ["Supabase", "Nuxt", "Quasar"],
-    repo: "https://github.com/luvbyte/kawaispace"
-  },
+  //
   {
     title: "Teat",
     desc: "This tool converts images into colorful ASCII-based text art",
@@ -49,7 +51,6 @@ export const projectsList = [
     tech: ["Python", "Pillow"],
     repo: "https://github.com/luvbyte/teat"
   },
-  //
   {
     title: "SpaceText",
     desc: "Texts in 3d space with emojis",
@@ -81,6 +82,14 @@ export const projectsList = [
     tech: ["HTML", "JavaScript", "TailwindCSS"],
     link: "https://birthday-gift4u.netlify.app",
     repo: "https://github.com/luvbyte/birthday-heart-gift"
+  },
+  {
+    title: "Bhagavad Gita",
+    desc: "Read the Bhagavad Gita online with a clean, easy-to-use interface for quick study and daily inspiration.",
+    img: "/images/bgita-preview.jpg",
+    tech: ["Vue", "TailwindCSS", "DaisyUI"],
+    link: "https://divine-gita.vercel.app/",
+    repo: "https://github.com/luvbyte/bhagavad-gita"
   },
   {
     title: "OSINT-Tools",
@@ -119,5 +128,12 @@ export const projectsList = [
     img: "/images/kchat-preview.png",
     tech: ["Python", "FastAPI", "vue", "TailwindCSS"],
     repo: "https://github.com/luvbyte/kchat"
+  },
+  {
+    title: "KawaiSpace",
+    desc: "A real-time Nuxt + Supabase platform for joining named private “islands” and chatting live",
+    img: "/images/kawaispace-preview.png",
+    tech: ["Supabase", "Nuxt", "Quasar"],
+    repo: "https://github.com/luvbyte/kawaispace"
   }
 ];
