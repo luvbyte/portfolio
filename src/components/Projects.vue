@@ -76,11 +76,8 @@
 
     <!-- MORE BUTTON -->
     <div v-if="showMore" class="mt-10 flex justify-center">
-      <a
-        href="/#/projects"
-        class="btn btn-primary btn-wide font-heading text-lg"
-      >
-        More Projects →
+      <a href="/projects" class="btn btn-primary btn-wide font-heading text-lg">
+        More Projects
       </a>
     </div>
   </section>
