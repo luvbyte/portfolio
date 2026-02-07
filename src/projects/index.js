@@ -30,18 +30,18 @@ export const projectsList = [
     repo: "https://github.com/luvbyte/space-chat"
   },
   {
-    title: "Nebula",
-    desc: "A Python-powered web application that manages and runs automated bots",
-    img: "/images/nebula-preview.jpg",
-    tech: ["Python", "FastAPI", "vue", "TailwindCSS"],
-    repo: "https://github.com/luvbyte/nebula"
-  },
-  {
     title: "luvz",
     desc: "A lightweight framework for building interactive Python scripts",
     img: "/images/luvz-preview.png",
     tech: ["Python", "Rich", "Cmd2"],
     repo: "https://github.com/luvbyte/luvz"
+  },
+  {
+    title: "Nebula",
+    desc: "A Python-powered web application that manages and runs automated bots",
+    img: "/images/nebula-preview.jpg",
+    tech: ["Python", "FastAPI", "vue", "TailwindCSS"],
+    repo: "https://github.com/luvbyte/nebula"
   },
   //
   {
