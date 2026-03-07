@@ -30,26 +30,19 @@ export const projectsList = [
     repo: "https://github.com/luvbyte/space-chat"
   },
   {
+    title: "ScriptX",
+    desc: "JavaScript Vulnerability Scanner",
+    img: "/images/scriptx-preview.png",
+    tech: ["JavaScript", "Vue", "TailwindCSS"],
+    link: "https://scriptx-anlyx.vercel.app/",
+    repo: "https://github.com/luvbyte/scriptx"
+  },
+  {
     title: "luvz",
     desc: "A lightweight framework for building interactive Python scripts",
     img: "/images/luvz-preview.png",
     tech: ["Python", "Rich", "Cmd2"],
     repo: "https://github.com/luvbyte/luvz"
-  },
-  {
-    title: "Nebula",
-    desc: "A Python-powered web application that manages and runs automated bots",
-    img: "/images/nebula-preview.jpg",
-    tech: ["Python", "FastAPI", "vue", "TailwindCSS"],
-    repo: "https://github.com/luvbyte/nebula"
-  },
-  //
-  {
-    title: "Teat",
-    desc: "This tool converts images into colorful ASCII-based text art",
-    img: "/images/teat-preview.png",
-    tech: ["Python", "Pillow"],
-    repo: "https://github.com/luvbyte/teat"
   },
   {
     title: "Quizzy",
@@ -58,6 +51,20 @@ export const projectsList = [
     tech: ["Vue", "TailwindCSS", "DaisyUI"],
     link: "https://quizzy-kik.vercel.app/",
     repo: "https://github.com/luvbyte/quizzy"
+  },
+  {
+    title: "Nebula",
+    desc: "A Python-powered web application that manages and runs automated bots",
+    img: "/images/nebula-preview.jpg",
+    tech: ["Python", "FastAPI", "vue", "TailwindCSS"],
+    repo: "https://github.com/luvbyte/nebula"
+  },
+  {
+    title: "Teat",
+    desc: "This tool converts images into colorful ASCII-based text art",
+    img: "/images/teat-preview.png",
+    tech: ["Python", "Pillow"],
+    repo: "https://github.com/luvbyte/teat"
   },
   {
     title: "SpaceText",
