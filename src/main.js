@@ -1,11 +1,23 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from "vue";
+import App from "./App.vue";
 import AosVue from "aos-vue";
 
-import router from './router'
+import Particles from "@tsparticles/vue3";
+import { loadSlim } from "@tsparticles/slim";
 
-import './style.css'
+import router from "./router";
 
-const app = createApp(App)
-app.use(router).use(AosVue)
-app.mount('#app')
+import "./style.css";
+
+const app = createApp(App);
+
+
+app.use(router).use(AosVue);
+
+app.use(Particles, {
+  init: async engine => {
+    await loadSlim(engine);
+  }
+});
+
+app.mount("#app");

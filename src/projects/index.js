@@ -2,24 +2,57 @@ export const projectsList = [
   {
     title: "kikx",
     desc: "Lightweight web OS for running Python scripts",
-    img: "/images/kikx-preview.jpg",
-    tech: ["Python", "Fastapi", "JQuery", "TailwindCSS"],
-    repo: "https://github.com/luvbyte/kikx"
-  },
-  {
-    title: "Escapy",
-    desc: "Escapy is a modular framework for automating and managing tasks in real time",
-    img: "/images/escapy-preview.jpg",
+    img: "/images/kikx/preview.jpg",
     tech: ["Python", "Fastapi", "Vue", "TailwindCSS"],
-    repo: "https://github.com/luvbyte/escapy"
+    repo: "https://github.com/luvbyte/kikx"
   },
   {
     title: "KittyChef",
     desc: "Lightweight mobile toolkit for encoding, decoding, and transforming data",
-    img: "/images/kittychef-preview.jpg",
+    img: "/images/kittychef/preview.jpg",
     tech: ["Vue", "TailwindCSS", "JavaScript"],
     link: "https://kittychef.vercel.app",
     repo: "https://github.com/luvbyte/kittychef"
+  },
+  {
+    title: "Linkx",
+    desc: "Share your social profiles, portfolio, projects and favorite links from a single beautiful page.",
+    img: "/images/linkx/preview.jpg",
+    tech: ["Vue", "Supabase", "TailwindCSS"],
+    link: "https://linkx-kik.vercel.app/",
+    repo: "https://github.com/luvbyte/linkx"
+  },
+  {
+    title: "Pastex",
+    desc: "Paste text, code, or notes and share them instantly with a simple link.",
+    img: "/images/pastex/preview.jpg",
+    tech: ["Vue", "Firebase", "TailwindCSS"],
+    link: "https://pastex-kik.vercel.app/",
+    repo: "https://github.com/luvbyte/pastex"
+  },
+  {
+    title: "Artly",
+    desc: "An online hub where creators can upload, organize, TextArt, Ascii Art & Emoticons with everyone.",
+    img: "/images/artly/preview.jpg",
+    tech: ["Vue", "Firebase", "TailwindCSS"],
+    link: "https://artly-kik.vercel.app/",
+    repo: "https://github.com/luvbyte/artly"
+  },
+  {
+    title: "Expresso",
+    desc: "An online hub where creators can upload, organize, and share stickers and GIFs with everyone.",
+    img: "/images/expresso/preview.jpg",
+    tech: ["Vue", "Firebase", "TailwindCSS"],
+    link: "https://expresso-hub.vercel.app/",
+    repo: "https://github.com/luvbyte/expresso"
+  },
+  {
+    title: "QCodix",
+    desc: "A modern web-based code editor for writing, editing, and testing code with a clean, developer-friendly interface.",
+    img: "/images/qcodix/preview.jpg",
+    tech: ["Vue", "TailwindCSS", "DaisyUI"],
+    link: "https://qcodix.vercel.app/",
+    repo: "https://github.com/luvbyte/qcodix"
   },
   {
     title: "SpaceChat",
@@ -28,6 +61,13 @@ export const projectsList = [
     tech: ["Supabase", "Vue", "TailwindCSS"],
     link: "https://space-chat-kik.vercel.app/",
     repo: "https://github.com/luvbyte/space-chat"
+  },
+  {
+    title: "Escapy",
+    desc: "Escapy is a modular framework for automating and managing tasks in real time",
+    img: "/images/escapy-preview.jpg",
+    tech: ["Python", "Fastapi", "Vue", "TailwindCSS"],
+    repo: "https://github.com/luvbyte/escapy"
   },
   {
     title: "ScriptX",
